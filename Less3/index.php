@@ -17,6 +17,7 @@ echo "This is number {$five} </br>";
 echo "This is string {$five_str} </br>";
 echo "This is double {$five_double} </br>";
 echo "This is array {$five_arr} </br>";
+echo `This is array $five_arr </br>`;
 var_dump($five_arr);
 ?>
 
